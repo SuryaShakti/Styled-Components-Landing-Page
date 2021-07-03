@@ -1,5 +1,4 @@
 import React from 'react';
-import {Container} from "../../globalStyles";
 import HomeIntro from "../../components/HomeIntro/HomeIntro";
 import HomeSecondSection from "../../components/HomeSecondSection/HomeSecondSection";
 import HomeBoost from "../../components/HomeBoostSection/HomeBoost";

@@ -27,40 +27,6 @@ export const NavLogoContainer = styled(Link)`
     margin: 0 30px 0 0;
 `;
 
-export const LinksContainer = styled.div`
-    flex: 1;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    @media screen and (max-width: 960px) {
-        display: none
-    }
-`;
-
-// export const NavLink = styled(Link)`
-//   color: #000;
-//   display: flex;
-//   align-items: center;
-//   text-decoration: none;
-//   padding: 0.5rem 1rem;
-//   height: 100%;
-//   @media screen and (max-width: 960px) {
-//     text-align: center;
-//     padding: 2rem;
-//     width: 100%;
-//     display: table;
-//     &:hover {
-//       color: #4b59f7;
-//       transition: all 0.3s ease;
-//     }
-//   }
-// `;
-
-
 export const MobileIcon = styled.div`
     display: none;
     

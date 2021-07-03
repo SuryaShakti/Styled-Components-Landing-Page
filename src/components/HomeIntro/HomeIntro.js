@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, BtnDiv, Description, Heading, Image, ImageContainer, TextContainer} from "./HomeIntro.elements";
-import {Button, Container} from "../../globalStyles";
+import {Button} from "../../globalStyles";
 import ImageOne from '../../assets/images/illustration-working.svg';
 
 const HomeIntro = () => {
@@ -8,7 +8,7 @@ const HomeIntro = () => {
         <>
             <Box>
                 <ImageContainer>
-                    <Image width={'100%'} src={ImageOne} />
+                    <Image width={'100%'} src={ImageOne} alt={'image'} />
                 </ImageContainer>
                 <TextContainer>
                     <Heading>

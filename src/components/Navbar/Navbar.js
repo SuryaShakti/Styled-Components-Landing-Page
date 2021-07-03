@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import {
-    LinksContainer,
     LinksDiv,
     MobileIcon,
     Nav,
@@ -41,15 +40,8 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogoContainer to={'/'}>
-                        <img src={Logo} />
+                        <img src={Logo} alt={'logo'} />
                     </NavLogoContainer>
-                    {/*<LinksContainer>*/}
-                    {/*    <div>*/}
-                    {/*        <NavLink to={'/services'}>*/}
-                    {/*            {'Services'}*/}
-                    {/*        </NavLink>*/}
-                    {/*    </div>*/}
-                    {/*</LinksContainer>*/}
                     <MobileIcon onClick={() => setClicked(!click)}>
                         {click ? <FaTimes /> : <FaBars /> }
                     </MobileIcon>
