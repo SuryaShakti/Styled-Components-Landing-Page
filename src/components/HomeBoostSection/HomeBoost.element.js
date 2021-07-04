@@ -4,7 +4,8 @@ import MobBg from '../../assets/images/bg-boost-mobile.svg';
 
 export const Box = styled.div`
     width: 100%;
-    height: 200px;
+    height: auto;
+    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;

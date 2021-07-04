@@ -37,11 +37,38 @@ export const Button = styled.button`
   border: none;
   cursor: pointer;
   border-radius: ${({ round }) => (round ? '30px' : '5px')};
+  
+  
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     background-color: ${({ primary }) => (primary ? '#81f7f7' : '#81f7f7')};
   }
+  :disabled {
+    opacity: 0.4;
+    background: #e5e5e5;
+    
+    &:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background-color: #e5e5e5;
+  }
+  }
+  
+    ${({ copied }) => copied && `
+        background: #34313D;
+        border-radius: 4px;
+        font-weight: 700;
+        width: 100%;
+        
+        :hover {
+        transition: all 0.3s ease-out;
+        background: #fff;
+        background-color: #696969;
+    }
+  `}
+
+  
   @media screen and (max-width: 960px) {
     width: 100%;
   }
