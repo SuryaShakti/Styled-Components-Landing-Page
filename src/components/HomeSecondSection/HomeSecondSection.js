@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {
     Box,
     BtnDiv,
@@ -21,7 +21,6 @@ const HomeSecondSection = () => {
     const [errorMessage, setErrorMessage] = useState('');
     const [loading,setLoading] = useState(false);
     const [copied, setCopied] = useState('');
-    const [copiedText, setCopiedText] = useState('')
 
     const [data, setData] = useState([])
 
