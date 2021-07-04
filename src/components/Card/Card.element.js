@@ -34,6 +34,11 @@ export const ImageDiv = styled.div`
     justify-content: center;
     background: #34313D;
     margin-bottom: 10px;
+    
+    @media screen and (max-width: 767px){
+        margin-left: auto;
+        margin-right: auto;
+    }
 `;
 
 export const Image = styled.img`

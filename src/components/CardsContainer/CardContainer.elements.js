@@ -21,11 +21,18 @@ export const Line = styled.div`
     background: #2acfcf;
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translate(0px, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
     
+    @media screen and (max-width: 1340px){
+        width: 80%
+    }    
+    
     @media screen and (max-width: 767px){
-        display: none;
+        height: 60%;
+        width: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 `;
