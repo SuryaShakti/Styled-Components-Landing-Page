@@ -155,6 +155,7 @@ export const ShortCodeContainer = styled.div`
     @media screen and (max-width: 767px){
         flex-direction: column;
         align-items: flex-start;
+        margin: 20px 0;
     }
 `;
 
@@ -185,6 +186,10 @@ export const ShortLink = styled.p`
 export const BtnDiv1 = styled.div`
     width: 100%;
     max-width: 180px;
+    
+    @media screen and (max-width: 767px){
+        max-width: 100%;        
+    }
 `;
 
 export const TextContainer = styled.div`
